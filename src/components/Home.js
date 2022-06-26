@@ -17,7 +17,7 @@ function Home() {
                         </div>
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                             <p className='text-lg'>{ d.description } </p>
-                            <div className='flex flex-row'>
+                            <div className='flex flex-row mt-2'>
                                 <div className='m-1 mr-2 w-9 h-9 relative flex justify-center items-center rounded-full bg-gray-500 text-xl text-white'>
                                     <img src={d.Avatar} class="rounded-full" alt='teacher avatar' />
                                 </div>
